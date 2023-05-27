@@ -22,13 +22,22 @@ let int = '-10';
 // }
 
 
+
 // forは決められた回数の処理を繰り返す
 
-let i;
-let num = 0;
+// let i;
+// let num = 0;
 
-for(i = 1; i<11; i++){
-  num = num + i;
-}
+// for(i = 1; i<11; i++){
+//   num = num + i;
+// }
 
-alert('1から10まで足し算した結果は' + num + '回です')
+// alert('1から10まで足し算した結果は' + num + '回です')
+
+
+
+// 四則演算の書き方
+alert(4 + 3);
+alert(8 - 2);
+alert(5 * 7);
+alert(10 / 2);
