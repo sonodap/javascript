@@ -1,43 +1,14 @@
-// ()の部分を入れ替えるだけで代入できる文字が変わる,足し算、引き算、掛け算、割り算もできる
-// alert(hello + drink);
+// メイン部分
+let alertString;
 
+// 作成した関数を呼び出し、変数へ格納
+alertString = addString("webcamp");
 
-let hello = 'Hello World ';
+//変数の中身をアラートで表示する
+alert(alertString);
 
-let drink = 'coke';
-
-let int = '-10';
-
-
-// orangeとappleの数字を変えると帰ってくる言葉も変わってくる
-// let orange = 100;
-// let apple = 90;
-
-// if(orange < apple){
-//   alert('みかんの値段がリンゴより安い');
-// } else if(orange == apple){
-//   alert('みかんとリンゴが同じ値段');
-// } else{
-//   alert('みかんの値段がリンゴより高い');
-// }
-
-
-
-// forは決められた回数の処理を繰り返す
-
-// let i;
-// let num = 0;
-
-// for(i = 1; i<11; i++){
-//   num = num + i;
-// }
-
-// alert('1から10まで足し算した結果は' + num + '回です')
-
-
-
-// 四則演算の書き方
-alert(4 + 3);
-alert(8 - 2);
-alert(5 * 7);
-alert(10 / 2);
+// 作成した関数
+function addString(strA){
+  let addStr = "Hello " + strA;
+  return addStr;
+}
